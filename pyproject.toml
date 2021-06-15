@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask-slapos"
+version = "0.0.0"
+description = "Sample Flask project for SlapOS"
+authors = ["Stefane Fermigier and others"]
+
+# packages = [{ include = "*", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2"
+gunicorn = "^20"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+black = "^21.6b0"
