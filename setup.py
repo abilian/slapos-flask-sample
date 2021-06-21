@@ -16,7 +16,7 @@ setup(
     name="flask-slapos",
     version="1.0.1",
     description="Sample Flask project for SlapOS",
-    python_requires="==3.*,>=3.9.0",
+    python_requires="==3.*,>=3.7.0",
     author="Stefane Fermigier and others",
     install_requires=["flask==2.*,>=2.0.0", "gunicorn==20.*,>=20.0.0"],
 )
